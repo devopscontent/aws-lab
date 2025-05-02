@@ -1,9 +1,0 @@
-# nginx-pending.yaml
-apiVersion: v1
-kind: Pod
-metadata:
-  name: nginx-pending
-spec:
-  containers:
-  - name: nginx
-    image: nginx
